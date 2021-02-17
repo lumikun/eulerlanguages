@@ -1,5 +1,5 @@
-! Find the sum of all even-valued terms.
-! Project Euler Problem 2
+!! Find the sum of all even-valued terms.
+!! Project Euler Problem 2
 PROGRAM p2
   implicit none
   INTEGER :: ans = 0

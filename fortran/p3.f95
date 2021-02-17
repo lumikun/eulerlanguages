@@ -1,3 +1,5 @@
+!! What is the largest prime factor of the number 600851475143
+!! Project Euler problem 3
 PROGRAM p3
   implicit none
   INTEGER*8 :: n = 600851475143_8
