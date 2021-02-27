@@ -1,18 +1,27 @@
 """
-    Problem 2
+    Problem 4
     Find the largest palindrome made from the product of two 3-digit numbers.
-
-    TODO Figure out WHAT THE FUCK is wrong with my while loop??? is the language stupid or am i the Reatard?
 """
 
 function ispalindrome(num)
-    rev = 0
-    while num != 0
-        remainder = num % 10
-        rev = rev * 10 + remainder
-        num = num / 10
-    end
-    return rev
+    str_num = string(num)
+    return str_num == reverse(str_num) ? true : false
 end
-ans = ispalindrome(123)
-println(ans)
+
+function solve()
+    ans = 0
+    a = 900
+    while a <= 999
+        b = 900 
+        while b <= 920
+            if ispalindrome(a*b)
+                ans = a*b
+            end
+            b += 1
+        end
+        a += 1
+    end
+    return ans
+end
+
+println(solve())
