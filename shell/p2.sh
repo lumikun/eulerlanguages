@@ -1,4 +1,5 @@
 #!/bin/sh
+# TODO fix this so it works, might just be me being stupid, but i think this should work.
 function fibs
 {
     ans=0
