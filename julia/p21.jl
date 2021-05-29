@@ -1,5 +1,5 @@
 """
-    Problem 18
+    Problem 21
     Evaluate the sum of all the amicable numbers under 10000.
 """
 

@@ -1,5 +1,5 @@
 """
-    Problem 18
+    Problem 20
     Find the sum of the digits in the number 100!
 """
 
